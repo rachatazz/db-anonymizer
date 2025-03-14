@@ -1,0 +1,52 @@
+{
+  "schemas": [
+    {
+      "name": "public",
+      "tables": [
+        {
+          "name": "users",
+          "columns": [
+            {
+              "name": "first_name",
+              "type": "person.firstName",
+              "localeCode": "en"
+            },
+            {
+              "name": "last_name",
+              "type": "person.lastName",
+              "localeCode": "en"
+            },
+            {
+              "name": "email",
+              "type": "internet.email"
+            }
+          ]
+        },
+        {
+          "name": "contacts",
+          "columns": [
+            {
+              "name": "first_name",
+              "type": "person.firstName",
+              "localeCode": "th"
+            },
+            {
+              "name": "last_name",
+              "type": "person.lastName",
+              "localeCode": "th"
+            },
+            {
+              "name": "primary_email",
+              "type": "internet.email"
+            },
+            {
+              "name": "primary_phone_number",
+              "type": "phone.number",
+              "localeCode": "th"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
